@@ -16,3 +16,6 @@ I’ll let **Sheldon Cooper** explain the rules of the game to you.
 - Paper disproves Spock
 - Spock vaporizes Rock
 - And, as it always has, Rock crushes Scissors
+
+
+**App is on working. You can contribute too!**
