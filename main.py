@@ -12,5 +12,5 @@ computer_action = choice(actions)
 computer_points = 0
 user_points = 0
 
-if user_action == computer_action:
-    print("Both are same.")
+def check_actions(computer_act, user_act):
+    return True
