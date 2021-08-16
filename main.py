@@ -41,3 +41,18 @@ def check_actions(computer_act, user_act):
         elif computer_act == actions[4]:
             print("Paper disproves Spock.")
             user_points = user_points + 1
+    elif user_act == actions[2]:
+        if computer_act == actions[0]:
+            print("Rock crushes Scissors.")
+            computer_points = computer_points + 1
+        elif computer_act == actions[1]:
+            print("Scissors cuts Paper.")
+            user_points = user_points + 1
+        elif computer_act == actions[2]:
+            print("Both same.")
+        elif computer_act == actions[3]:
+            print("Scissors cuts Lizard")
+            user_points = user_points + 1
+        elif computer_act == actions[4]:
+            print("Spock brokes Scissors.")
+            computer_points = computer_points + 1
